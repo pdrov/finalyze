@@ -1,6 +1,6 @@
 # Finalyze
 Application to track stock sentiment based on news articles. 
-Sentiment analysis will be used to determine stocks portfolio.
+Sentiment analysis will be used to determine a personal stocks portfolio.
 Data obtained using Polygon API. 
 
 
