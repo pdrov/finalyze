@@ -3,12 +3,27 @@ Application to track stock sentiment based on news articles.
 Sentiment analysis will be used to determine a personal stocks portfolio.
 Data obtained using Polygon API. 
 
+## 
 
 ## TODO
+### Backend
+
+### Frontend (GUI)
+
+### Features
 * Analyze growth stocks 
 * Apply machine learning/deep learning/ AI algorithms to analyze articles and categorize them by sentiment value
+* Updates on owned stocks 
+* Tracking stocks 
+
 
 ## Log
+2/3/2023
+* Decoding and parsing HTTP URL responses
+
+2/2/2023
+* Included screener database, currently working on implementing auto calls
+
 12/21/2022
 * Researched NLP methods for text sentiment. Will use Aspect-Based Sentiment analysis. 
     * Learning Span-Level Interactions for Aspect Sentiment Triplet Extraction research paper github: https://github.com/chiayewken/Span-ASTE
