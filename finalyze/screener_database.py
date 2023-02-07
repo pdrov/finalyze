@@ -1,6 +1,6 @@
 import pandas as pd
 
-CSV_FILE = pd.read_csv("nasdaq_screener.csv", sep=',')
+CSV_FILE = pd.read_csv("./resources/nasdaq_screener.csv", sep=',')
 DF = pd.DataFrame(data=CSV_FILE)
 DF = DF.drop(["Last Sale", "Net Change", "% Change", "Market Cap", "Volume"], axis=1)
 DF = DF.fillna(value="NaN")
@@ -41,5 +41,3 @@ def get_symbol_info(symbol):
             return DF.loc[i] # Symbol, Name, Country, IPO Year, Sector, Industry
     return "Symbol was entered incorrectly or does not exist."
 
-
-print(filter_by_industry("Biotech"))

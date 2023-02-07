@@ -7,6 +7,9 @@ Data obtained using Polygon API.
 
 ## TODO
 ### Backend
+* Handle the API calls 
+* Parse data
+* Use machine learning to analyze data
 
 ### Frontend (GUI)
 
@@ -18,6 +21,11 @@ Data obtained using Polygon API.
 
 
 ## Log
+2/6/2023
+* Restructured files
+* Added datehandler.py to handle dates (trading days, timestamps)
+* Modify client.py to a class 
+
 2/3/2023
 * Decoding and parsing HTTP URL responses
 
